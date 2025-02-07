@@ -1,13 +1,16 @@
-import Spotify from "@/pages/Spotify";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Footer from "../components/Footer";
+
+import Spotify from "@/pages/spotify";
+import Facebook from "@/pages/facebook";
+import Amazon from "@/pages/amazon";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <main>
+        <Amazon />
         <Spotify />
+        <Facebook />
       </main>
       <Footer />
     </div>
