@@ -19,8 +19,8 @@ const Amazon = () => {
         <div className="flex mx-2 py-2 border border-transparent hover:border-white">
           <Image
             src="/img/amazon_logo.png"
-            width={50}
-            height={50}
+            width={100}
+            height={100}
             alt="Amazon"
             className="h-7"
           />
@@ -290,7 +290,7 @@ const Amazon = () => {
               <div className="hidden md:block my-6">
                 <Image
                   src="/img/banner_promo.jpg"
-                  width={550}
+                  width={1000}
                   height={550}
                   alt="Promoções"
                   className="w-full h-28"
@@ -332,7 +332,7 @@ const Amazon = () => {
                       className="rounded w-full md:-75px mb-2 mx-auto"
                       alt="Oferta"
                     />
-                    <a href="#">Ofertas Relâmpago</a>
+                    <a href="#">Ofertas</a>
                   </li>
                   <li className="text-center mx-3 mb-4 md:mb-0">
                     <Image
@@ -367,12 +367,12 @@ const Amazon = () => {
                   <li className="text-center mx-3 mb-4 md:mb-0">
                     <Image
                       src="/img/cat6.jpg"
-                      width={40}
-                      height={40}
+                      width={75}
+                      height={75}
                       className="rounded w-full md:-75px mb-2 mx-auto"
                       alt="Oferta"
                     />
-                    <a href="#">Inglês e outras línguas</a>
+                    <a href="#">Inglês</a>
                   </li>
                   <li className="text-center mx-3 mb-4 md:mb-0">
                     <Image
@@ -394,7 +394,7 @@ const Amazon = () => {
                     />
                     <a href="#">Infantil</a>
                   </li>
-                  <li className="text-center mx-3 mb-4 md:mb-0">
+                  <li className="text-center mx-auto mb-4 md:mb-0">
                     <Image
                       src="/img/cat9.jpg"
                       width={75}
@@ -406,10 +406,465 @@ const Amazon = () => {
                   </li>
                 </ul>
               </div>
+              <div className="flex flex-col">
+                <div className="flex justify-between py-2 px-4 text-sm">
+                  <p>Mostrando1-32 de 122 resultados</p>
+                  <div className="flex md:flex-none">
+                    <span>Ordenar por</span>
+                    <select className="bg-gray-300 pr-4 md:pr-12 ml-3 rounded-sm border border-gray-600 text-xs px-1">
+                      <option value="Destaques">Destaques</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="flex flex-wrap border border-gray-300 divide-x divide-gray-300 md-10">
+                  <div className="w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300">
+                    <Image
+                      src="/img/livro1.jpg"
+                      alt="Livro"
+                      width={150}
+                      height={100}
+                      className="h-210px place-self-center p-2"
+                    />
+                    <p className="text-red-700 mt-10">R$ 26,30 </p>
+                    <p className="text-sm mb-2">
+                      De: <span className="line-through">R$ 63,60</span> (58%
+                      off){" "}
+                    </p>
+                    <p className="text-xs text-gray-700 mb-2">
+                      Termina em 2:09:46
+                    </p>
+                    <a
+                      href="#"
+                      className="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">
+                      Em Busca de Sentido
+                    </a>
+                    <p className="text-sm mb-8">
+                      Esta oferta é exclusiva para membros do
+                      <a
+                        href="#"
+                        className="text-xs ml-1 text-blue-600 hover:underline hover:text-orange-650">
+                        Amazon Prime
+                      </a>
+                      .
+                    </p>
+                    <button className="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">
+                      Saiba mais
+                    </button>
+                  </div>
+                  <div className="w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300">
+                    <Image
+                      src="/img/livro2.jpg"
+                      alt="Livro"
+                      width={150}
+                      height={100}
+                      className="h-210px place-self-center p-2"
+                    />
+                    <p className="text-red-700 mt-10">R$ 17,40 </p>
+                    <p className="text-sm mb-2">
+                      De: <span className="line-through">R$ 39,90</span> (56%
+                      off){" "}
+                    </p>
+                    <p className="text-xs text-gray-700 mb-2">
+                      Termina em 2:09:46
+                    </p>
+                    <a
+                      href="#"
+                      className="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">
+                      Não se humilha não
+                    </a>
+                    <p className="text-sm mb-8">
+                      Esta oferta é exclusiva para membros do
+                      <a
+                        href="#"
+                        className="text-xs ml-1 text-blue-600 hover:underline hover:text-orange-650">
+                        Amazon Prime
+                      </a>
+                      .
+                    </p>
+                    <button className="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">
+                      Saiba mais
+                    </button>
+                  </div>
+                  <div className="w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300">
+                    <Image
+                      src="/img/livro3.jpg"
+                      alt="Livro"
+                      width={150}
+                      height={100}
+                      className="h-210px place-self-center p-2"
+                    />
+                    <p className="text-red-700 mt-10">R$ 26,30 </p>
+                    <p className="text-sm mb-2">
+                      De: <span className="line-through">R$ 63,60</span> (58%
+                      off){" "}
+                    </p>
+                    <p className="text-xs text-gray-700 mb-2">
+                      Termina em 2:09:46
+                    </p>
+                    <a
+                      href="#"
+                      className="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">
+                      As Seis Lições
+                    </a>
+                    <p className="text-sm mb-8">
+                      Esta oferta é exclusiva para membros do
+                      <a
+                        href="#"
+                        className="text-xs ml-1 text-blue-600 hover:underline hover:text-orange-650">
+                        Amazon Prime
+                      </a>
+                      .
+                    </p>
+                    <button className="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">
+                      Saiba mais
+                    </button>
+                  </div>
+                  <div className="w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300">
+                    <Image
+                      src="/img/livro4.jpg"
+                      alt="Livro"
+                      width={150}
+                      height={100}
+                      className="h-210px place-self-center p-2"
+                    />
+                    <p className="text-red-700 mt-10">R$ 26,30 </p>
+                    <p className="text-sm mb-2">
+                      De: <span className="line-through">R$ 63,60</span> (58%
+                      off){" "}
+                    </p>
+                    <p className="text-xs text-gray-700 mb-2">
+                      Termina em 2:09:46
+                    </p>
+                    <a
+                      href="#"
+                      className="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">
+                      Amme
+                    </a>
+                    <p className="text-sm mb-8">
+                      Esta oferta é exclusiva para membros do
+                      <a
+                        href="#"
+                        className="text-xs ml-1 text-blue-600 hover:underline hover:text-orange-650">
+                        Amazon Prime
+                      </a>
+                      .
+                    </p>
+                    <button className="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">
+                      Saiba mais
+                    </button>
+                  </div>
+                  <div className="w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300">
+                    <Image
+                      src="/img/livro5.jpg"
+                      alt="Livro"
+                      width={150}
+                      height={100}
+                      className="h-210px place-self-center p-2"
+                    />
+                    <p className="text-red-700 mt-10">R$ 26,30 </p>
+                    <p className="text-sm mb-2">
+                      De: <span className="line-through">R$ 63,60</span> (58%
+                      off){" "}
+                    </p>
+                    <p className="text-xs text-gray-700 mb-2">
+                      Termina em 2:09:46
+                    </p>
+                    <a
+                      href="#"
+                      className="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">
+                      Propósito
+                    </a>
+                    <p className="text-sm mb-8">
+                      Esta oferta é exclusiva para membros do
+                      <a
+                        href="#"
+                        className="text-xs ml-1 text-blue-600 hover:underline hover:text-orange-650">
+                        Amazon Prime
+                      </a>
+                      .
+                    </p>
+                    <button className="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">
+                      Saiba mais
+                    </button>
+                  </div>
+                  <div className="w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300">
+                    <Image
+                      src="/img/livro6.jpg"
+                      alt="Livro"
+                      width={150}
+                      height={100}
+                      className="h-210px place-self-center p-2"
+                    />
+                    <p className="text-red-700 mt-10">R$ 26,30 </p>
+                    <p className="text-sm mb-2">
+                      De: <span className="line-through">R$ 63,60</span> (58%
+                      off){" "}
+                    </p>
+                    <p className="text-xs text-gray-700 mb-2">
+                      Termina em 2:09:46
+                    </p>
+                    <a
+                      href="#"
+                      className="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">
+                      A Morte
+                    </a>
+                    <p className="text-sm mb-8">
+                      Esta oferta é exclusiva para membros do
+                      <a
+                        href="#"
+                        className="text-xs ml-1 text-blue-600 hover:underline hover:text-orange-650">
+                        Amazon Prime
+                      </a>
+                      .
+                    </p>
+                    <button className="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">
+                      Saiba mais
+                    </button>
+                  </div>
+                  <div className="w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300">
+                    <Image
+                      src="/img/livro7.jpg"
+                      alt="Livro"
+                      width={150}
+                      height={100}
+                      className="h-210px place-self-center p-2"
+                    />
+                    <p className="text-red-700 mt-10">R$ 26,30 </p>
+                    <p className="text-sm mb-2">
+                      De: <span className="line-through">R$ 63,60</span> (58%
+                      off){" "}
+                    </p>
+                    <p className="text-xs text-gray-700 mb-2">
+                      Termina em 2:09:46
+                    </p>
+                    <a
+                      href="#"
+                      className="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">
+                      Outros Jeitos
+                    </a>
+                    <p className="text-sm mb-8">
+                      Esta oferta é exclusiva para membros do
+                      <a
+                        href="#"
+                        className="text-xs ml-1 text-blue-600 hover:underline hover:text-orange-650">
+                        Amazon Prime
+                      </a>
+                      .
+                    </p>
+                    <button className="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">
+                      Saiba mais
+                    </button>
+                  </div>
+                  <div className="w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300">
+                    <Image
+                      src="/img/livro8.jpg"
+                      alt="Livro"
+                      width={150}
+                      height={100}
+                      className="h-210px place-self-center p-2"
+                    />
+                    <p className="text-red-700 mt-10">R$ 26,30 </p>
+                    <p className="text-sm mb-2">
+                      De: <span className="line-through">R$ 63,60</span> (58%
+                      off){" "}
+                    </p>
+                    <p className="text-xs text-gray-700 mb-2">
+                      Termina em 2:09:46
+                    </p>
+                    <a
+                      href="#"
+                      className="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">
+                      Antifrágil
+                    </a>
+                    <p className="text-sm mb-8">
+                      Esta oferta é exclusiva para membros do
+                      <a
+                        href="#"
+                        className="text-xs ml-1 text-blue-600 hover:underline hover:text-orange-650">
+                        Amazon Prime
+                      </a>
+                      .
+                    </p>
+                    <button className="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">
+                      Saiba mais
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </main>
+      <footer className="flex flex-col text-white">
+        <div className="py-4 text-center bg-darkblue-600 hover:bg-darkblue-500 text-sm">
+          <p>Voltar ao Início</p>
+        </div>
+        <div className="flex flex-wrap md:flex-nowrap md:justify-around py-10 px-10 md:px-20 bg-darkblue-700">
+          <div className="w-1/-2 md:w-auto mb-4 md:mb-0">
+            <h4 className="font-bold mb-2">Conheça-nos</h4>
+            <ul className="text-xs w-3/4">
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Informações Corporativas</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Carreiras</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Comunicados á imprensa</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Comunidade</a>
+              </li>
+            </ul>
+          </div>
+          <div className="w-1/-2 md:w-auto ml-14 md:ml-0 mb-4 md:mb-0">
+            <h4 className="font-bold mb-2">Ganhe dinheiro conosco</h4>
+            <ul className="text-xs w-3/4">
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Publique seus livros</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Seja um associado</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Venda na Amazon</a>
+              </li>
+            </ul>
+          </div>
+          <div className="w-1/-2 md:w-auto mb-4 md:mb-0">
+            <h4 className="font-bold mb-2">Para você</h4>
+            <ul className="text-xs w-3/4">
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Sua conta</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Frete e prazo de entrega</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Develoções e reembolsos</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Gerencie seu contúdo e dispositivos</a>
+              </li>
+            </ul>
+          </div>
+          <div className="w-1/-2 md:w-auto mb-4 md:mb-0">
+            <h4 className="font-bold mb-2">Pagamentos</h4>
+            <ul className="text-xs w-3/4">
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Amazon e COVID-19</a>
+              </li>
+              <li className="mb-2 text-gray-400 hover:underline leading-4">
+                <a href="#">Cartões de crédito e boletos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="hidden md:flex flex-col items-center bg-darkblue-700 border-t border-gray-700 pt-6 pb-4">
+          <Image
+            src="/img/amazon_logo.png"
+            alt="Amazon"
+            className="w-20"
+            width={100}
+            height={20}
+          />
+          <ul className="flex flex-wrap justify-center text-xs pt-4 w-3/4 text-gray-400">
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Austrália</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Alemanha</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Canadá</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">China</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Cingapura</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Espanha</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Estados Unidos</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">França</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Peru</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Holanda</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Índia</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Itália</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Japão</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Méxocp</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Emirados Árabes Unidos</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Reino Unido</a>
+            </li>
+            <li className="px-2 border-r border-gray-600 hover:underline">
+              <a href="#">Turquia</a>
+            </li>
+          </ul>
+          <div className="flex text-xs">
+            <span className="text-gray-500 mr-2">E não se esqueça:</span>
+            <a href="#" className="text-gray-400 hover:underline">
+              Amazon Web Services
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col items-center bg-darkblue-950 text-xs pt-8 md:pt-2">
+          <div className="flex flex-col md:flex-row mb-10">
+            <ul className="flex">
+              <li className="px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline">
+                <a href="#">Condições de Uso</a>
+              </li>
+              <li className="px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline">
+                <a href="#">Notificação de privacidade</a>
+              </li>
+              <li className="px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline">
+                <a href="#">Cookies</a>
+              </li>
+              <li className="px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline">
+                <a href="#">Anúncios Baseados em Interesses</a>
+              </li>
+            </ul>
+            <span className="text-center md:text-left mt-8 md:mt-0 ml-4 text-gray-600">
+              {" "}
+              &copy; Amazon.com, Inc. ou suas afiliadas
+            </span>
+          </div>
+          <p className="hidden md:block mb-10 text-gray-600">
+            Amazon Serviços de Varejo do Brasil Ltda | CNPJ 15.436.940/0001-03
+          </p>
+          <p className="hidden md:block mb-10 text-gray-600">
+            Av. Juscelino Kubischeck, 2041, Torre E, 18° andar - São Paulo{" "}
+            <a href="#" className="text-blue-800">
+              {" "}
+              Fale conosco
+            </a>
+          </p>
+          <p className="hidden md:block mb-10 text-gray-600">
+            Formas de pagamento aceitos: cartões de créditos (Visa, Mastercard,
+            Elo e American Express) e boleto.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
