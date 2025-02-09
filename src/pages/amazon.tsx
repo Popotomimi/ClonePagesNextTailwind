@@ -322,7 +322,7 @@ const Amazon = () => {
                       className="rounded w-full md:-75px mb-2 mx-auto"
                       alt="Oferta"
                     />
-                    <a href="#">Todas as Ofertas</a>
+                    <a href="#">Promos</a>
                   </li>
                   <li className="text-center mx-3 mb-4 md:mb-0">
                     <Image
